@@ -1,0 +1,126 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+} */
+/* .row{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.nav{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+}
+.nav>li>a{
+    display: block;
+    padding: 15px 40px;
+    background: red;
+    color: #fff;
+}
+.nav>li ul{
+    display: none;
+}
+.nav>li:hover>ul{
+    display: block;
+    float: right;
+    background:#000;
+    transition: .5s;
+}
+.nav>li:hover>ul li{
+    margin-bottom: 10px;
+    border-bottom: 1px  dotted #fff;
+    
+}
+.nav>li:hover>ul a{
+    color: white;
+    font-size: 20px;
+    
+}
+.nav>li:hover>ul li i{
+    float: right;
+    margin-right: 5px;
+}
+
+
+.nav>li>ul>li:hover>ul{
+    display: block;
+    background: green;
+    float: right;
+  
+}
+.nav ul ul ul{
+    
+} */
+
+=============================================
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://cdn.wallpapersafari.com/85/60/mwdzsO.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    left: 10%;
+}
+.wrapper ul{
+    list-style: none;
+    margin-top: 0%;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.wrapper ul li{
+    position: relative;
+    background: rgba(32, 199, 54, 0.322);
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 1px;
+}
+.wrapper ul ul li{
+    border-bottom: 1px dotted #000;
+}
+.wrapper ul li:hover{
+    background: rgba(127, 228, 11, 0.486);
+    transition: all .5s ease-in;
+}
+.wrapper ul ul{
+    display: none;
+    margin-left: -40px;
+}
+.wrapper ul li:hover>ul{
+    display: block;
+    transition: all .5s ease-in;
+}
+.wrapper ul ul ul{
+    margin-left: 130px;
+    top: 0;
+    position: absolute;
+}
+.wrapper i{
+    position: relative;
+    float: right;
+    top: 40%;
+    right: 5%;
+}
